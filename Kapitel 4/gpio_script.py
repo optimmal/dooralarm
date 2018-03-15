@@ -22,8 +22,10 @@ while True:
     if io.input(door_pin):
         door=0 # set door auf initial value
         # do something
+        print("Door open")
         time.sleep(1) # wait 1 second vor der nächsten Aktion
     ## if switch is closed und door does not equal 1
     if (io.input(door_pin)==False and door!=1):
         # do something
+        print("Door closed")
         door=1 # set door so that this loop won't act again until the switch has been opened
