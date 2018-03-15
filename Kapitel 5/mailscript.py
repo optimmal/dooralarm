@@ -1,9 +1,3 @@
-# Kapitel 5 - Email Script
-
-Im vorletzten Schritt wollen wir nun auf der Kommandozeile eine Email versenden. Dafür kann entweder der eigene Email-Account verwendet werden oder der Workshop-Account. Wir erstellen also ein zweites Script:
-
-```python
-
 #!/usr/bin/env python
 
 import smtplib
@@ -27,4 +21,3 @@ server.login(fromaddr, "YOUR PASSWORD")
 text = msg.as_string()
 server.sendmail(fromaddr, toaddr, text)
 server.quit()
-```
