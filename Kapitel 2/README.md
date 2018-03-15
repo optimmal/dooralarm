@@ -1,4 +1,4 @@
-Kapitel 2 - Hardware Setup
+# Kapitel 2 - Hardware Setup
 
 Im nächsten Schritt verbinden wir den Magnetsensor mit dem Raspberry Pi. Das geht sehr schnell!
 

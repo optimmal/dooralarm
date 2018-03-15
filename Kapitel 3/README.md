@@ -1,4 +1,4 @@
-Kapitel 3 - Software Setup
+# Kapitel 3 - Software Setup
 
 Im folgenden wollen wir die Grundfunktionen der Software einrichten. Auch das ist nicht kompliziert:
 

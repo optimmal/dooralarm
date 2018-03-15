@@ -1,7 +1,7 @@
-Kapitel 4 - CODE
+# Kapitel 4 - CODE
 
 1. Lege einen neuen Ordner an: `mkdir dooralarm && cd dooralarm`
-1. Öffne einen Texteditor auf der Kommandozeile und 
+1. Öffne einen Texteditor auf der Kommandozeile (z.B. `vim` oder `nano`) und füge das folgende Script ein:
 
 ```python
 #!/usr/bin/env python
@@ -35,4 +35,9 @@ while True:
         # do something
         print("Door closed")
         door=1 # set door so that this loop won't act again until the switch has been opened
+```
+
+1. mache zum Abschluss das Script direkt ausführbar:
+```
+chmod +x gpio_script.py
 ```
