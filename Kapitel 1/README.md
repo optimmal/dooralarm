@@ -10,6 +10,8 @@ Stattdessen wollen wir uns von außerhalb per SSH an unserem Raspberry Pi anmeld
 1. mit Putty oder mac Terminal mit dem Raspberry Pi verbinden
 1. Terminal: `ssh xxx.xxx.x.x`
 1. mit dem default Login im Raspberry Pi anmelden:
-```username: pi
-password: raspberry```
+```
+username: pi
+password: raspberry
+```
 
